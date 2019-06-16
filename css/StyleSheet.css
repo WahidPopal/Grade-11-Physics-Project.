@@ -1,0 +1,328 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:serif;
+  background-color: #EAF6F6;
+}
+
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/headerimage.jpg);
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.main ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 135px;
+  margin-right: 50px;
+}
+
+.main ul li{
+  display: inline-block;
+}
+
+.main ul li a{
+  text-decoration: none;
+  color:#66BFBF;
+  padding: 5PX 20PX;
+  border: 2px solid transparent;
+  transition: 0.6s ease;
+}
+
+.main ul li a:hover{
+  background-color:#66BFBF;
+  color: black;
+}
+
+.main ul li.active a{
+  background-color:#66BFBF;
+  color: black;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%,-80%);
+
+}
+
+.title h1{
+  font-style:serif;
+  color:#66BFBF;
+  font-size: 45px;
+
+}
+
+.bicycle{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.bicycle h1{
+  color:#66BFBF;
+  margin-left: 340px;
+  font-style: serif;
+  font-size: 35px;
+}
+
+.bicycleBox{
+  width: 720px;
+  padding: 35px;
+  margin: -462px auto;
+  background:#D6EAF8;
+  font-style: serif;
+  font-size: 16px;
+  text-align: justify;
+  border: 2px solid #2E86C1;
+  position: relative;
+  margin-left: 683px;
+
+}
+.bicycleBox:before{
+  content:'';
+  width: 50px;
+  height: 50px;
+  background:#D6EAF8;
+  position: absolute;
+  top: 200px;
+  left: -1px;
+  transform: translateX(-50%) rotate(-45deg);
+  border-left: 2px solid #2E86C1;
+  border-top:2px solid #2E86C1;
+}
+.firstline hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color:#3498DB;
+  border-width: 5px;
+  width:80%;
+  margin-top: 485px;
+}
+/* the second part of rocket */
+.rocket{
+  margin-left:40px;
+  margin-top:40px;
+}
+.rocket h1{
+  color:#66BFBF;
+  margin-left: 500px;
+  font-style: serif;
+  font-size: 35px;
+}
+
+.rocketBox{
+  width: 757px;
+  padding: 50px;
+  margin: -535px auto;
+  background:#D4EFDF;
+  font-style: serif;
+  font-size: 16px;
+  text-align: justify;
+  border: 2px solid #2E86C1;
+  position: relative;
+  margin-left: 619px;
+
+}
+.rocketBox:before{
+  content:'';
+  width: 50px;
+  height: 50px;
+  background:#D4EFDF;
+  position: absolute;
+  top: 200px;
+  left: -1px;
+  transform: translateX(-50%) rotate(-45deg);
+  border-left: 2px solid #2E86C1;
+  border-top:2px solid #2E86C1;
+}
+.secondLine hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color:#3498DB;
+  border-width: 5px;
+  width:80%;
+  margin-top: 565px;
+}
+
+/* third picture for the projectile motion */
+
+
+.soccor{
+  margin-left:40px;
+  margin-top:40px;
+}
+
+.soccor h1{
+  color:#66BFBF;
+  margin-left: 500px;
+  font-style: serif;
+  font-size: 35px;
+}
+
+.soccorBox{
+  width: 715px;
+  padding: 40px;
+  margin: -360px auto;
+  background:#D4EFDF;
+  font-style: serif;
+  font-size: 16px;
+  text-align: justify;
+  border: 2px solid #2E86C1;
+  position: relative;
+  margin-left: 680px;
+
+}
+.soccorBox:before{
+  content:'';
+  width: 50px;
+  height: 50px;
+  background:#D4EFDF;
+  position: absolute;
+  top: 200px;
+  left: -1px;
+  transform: translateX(-50%) rotate(-45deg);
+  border-left: 2px solid #2E86C1;
+  border-top:2px solid #2E86C1;
+}
+.thirdLine hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color:#3498DB;
+  border-width: 5px;
+  width:80%;
+  margin-top: 383px;
+}
+
+/* lights and circuits */
+
+.light{
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.light h1{
+  color:#66BFBF;
+  margin-left: 360px;
+  font-style: serif;
+  font-size: 35px;
+}
+
+.lightBox{
+  width: 720px;
+  padding: 35px;
+  margin: -547px auto;
+  background:#D6EAF8;
+  font-style: serif;
+  font-size: 16px;
+  text-align: justify;
+  border: 2px solid #2E86C1;
+  position: relative;
+  margin-left: 683px;
+
+}
+.lightBox:before{
+  content:'';
+  width: 50px;
+  height: 50px;
+  background:#D6EAF8;
+  position: absolute;
+  top: 200px;
+  left: -1px;
+  transform: translateX(-50%) rotate(-45deg);
+  border-left: 2px solid #2E86C1;
+  border-top:2px solid #2E86C1;
+}
+.fourtLine hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color:#3498DB;
+  border-width: 5px;
+  width:80%;
+  margin-top: 575px;
+}
+
+
+/* start the bair from the top meano */
+
+.about ul{
+  list-style-type: none;
+  float: none;
+  margin-top: 40px;
+  margin-right: 40PX;
+}
+.about ul li{
+  padding: 5PX 15PX;
+  font-style: italic;
+  font-size: 20px;
+  color: #66BFBF;
+}
+.about ul > li {
+    opacity: 1.0;
+}
+
+.about ul:hover > li:not(:hover) {
+    opacity: 0.5;
+}
+.aboutBox{
+  width: 757px;
+  padding: 50px;
+  margin: -175px auto;
+  background:#F5EEF8;
+  font-style: serif;
+  font-size: 16px;
+  text-align: justify;
+  border: 2px solid #2E86C1;
+  position: relative;
+  margin-left: 615px;
+}
+.allContacts ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 40px;
+  margin-right: 180px;
+}
+
+.allContacts ul li{
+    display: inline-block;
+}
+.allContacts ul li img{
+  text-decoration: none;
+  padding: 0PX 20PX;
+}
+
+.names ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 16px;
+  margin-right: 225px;
+}
+.names ul li{
+  display: inline-block;
+}
+.names ul li a{
+  text-decoration: none;
+  padding: 0PX 135PX;
+  color: #66BFBF;
+}
+/* resources page */
+
+.resourecs ul{
+  list-style-type: none;
+  float: none;
+  margin-top: 40px;
+  margin-right: 40PX;
+}
+.resourecs ul li{
+  padding: 5PX 15PX;
+  font-style: italic;
+  font-size: 20px;
+  color: #66BFBE;
+}
+.resourecs ul > li {
+    opacity: 1.0;
+}
+
+.resourecs ul:hover > li:not(:hover) {
+    opacity: 0.5;
+}
